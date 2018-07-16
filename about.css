@@ -1,0 +1,42 @@
+
+body {
+  padding-top: 70px;
+}
+
+p{ line-height: 1em;
+  font-style: italic;
+  border-bottom: 1px #ccc solid;
+  font-size: 60px;
+}
+
+
+h1{
+  color:purple;
+  font-weight: normal;
+  line-height: 1.1em;
+  margin: 0 0 .2em 0;
+  font-size: 60px;
+  font-style: oblique;
+}
+h2{
+  color: blue;
+  font-weight: normal;
+  line-height: 1.1em;
+  margin: 0 0 .5em 0;
+  font-size: 1.5em;
+  font-style: italic;
+}
+h3{
+  color:purple;
+  font-weight: normal;
+  line-height: 1.1em;
+  margin: 0 0 .2em 0;
+  font-size: 60px;
+  font-style: oblique;
+}
+
+body{
+  font-family: Arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+  font-style: italic;
+}
+#page{ margin: 20px; }

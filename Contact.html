@@ -1,0 +1,90 @@
+<div class="jumbotron">
+  <div id='social-buttons'>
+  <p>  Follow Up on our social media sites:</p>
+    <button class='btn-twitter'>Twitter</button>
+    <button class='btn-facebook'>Facebook</button>
+    <button class='btn-pinterest'>Pinterest</button>
+  </div>
+</body>
+</html>
+<link rel="stylesheet" href="Style.css" type="text/css">
+<div id="content">
+<html>
+<h1>Escape With Us...</h1>
+<img src="image.gif">
+
+<form action="success.html" method="post" onsubmit="return ValidateForm(this);">
+
+<script type="text/javascript">
+
+function ValidateForm(frm)
+   {
+      if (frm.Name.value == "")
+         {
+             alert('Tionae Webster');
+
+                 frm.Name.focus();
+                  return false;
+   }
+
+if (frm.FromEmailAddress.value == "")
+{
+  alert('NaeWebster@gmail.com');
+      frm.FromEmailAddress.focus();
+           return false; }
+
+if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1)
+  {
+   alert('NaeWebster@gmail.com');
+   frm.FromEmailAddress.focus();
+   return false;
+  }
+if (frm.Comments.value == "")
+ {
+ alert('Please enter comments or questions.');
+    frm.Comments.focus(); return false;
+ }
+return true;
+
+}
+</script>
+
+<table style="width:550px;border:0;" cellpadding="8" cellspacing="0">
+<tr>
+    <td>
+         <label for="Name">Name*:</label>
+    </td>
+<td>
+<input name="Name" type="text" maxlength="60" style="width:250px;" />
+</td>
+   </tr> <tr>
+<td>
+<label for="0616303935">Phone number:</label>
+</td>
+    <td>
+     <input name="061630" type="text" maxlength="43" style="width:250px;" />
+</td>
+</tr> <tr>
+<td>
+<label for="naewebster9@gmail.com">Email address*:</label>
+</td>
+   <td>
+      <input name="FromEmailAddress" type="text" maxlength="90" style="width:250px;" />
+   </td>
+    </tr> <tr>
+<td>
+    <label for="Comments">Comments*:</label>
+</td> <td>
+<textarea name="For any further questions,queries or information,please contact us and give us feedback" rows="7" cols="40" style="width:350px;"></textarea>
+</td> </tr> <tr> <td>
+*- required fields
+</td> <td>
+<input type="button" value="Go back!" onclick="history.back()">
+
+
+
+<input name="skip_Submit" type="submit" value="Submit" />
+</td> </tr>
+</table>
+</form>
+</html>
